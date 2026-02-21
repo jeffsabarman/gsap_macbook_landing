@@ -1,5 +1,6 @@
 import NavBar from "./components/NavBar.tsx";
 import Hero from "./components/Hero.tsx";
+import ProductViewer from "./components/ProductViewer.tsx";
 
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
         <main>
             <NavBar />
             <Hero />
+            <ProductViewer />
         </main>
     )
 }
